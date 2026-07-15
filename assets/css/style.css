@@ -1,0 +1,96 @@
+/* ===========================
+   CAMPUSMARKET DESIGN SYSTEM
+   =========================== */
+
+:root{
+
+    --primary:#2458D3;
+    --primary-dark:#173A99;
+    --primary-light:#EAF2FF;
+
+    --background:#F5F7FB;
+
+    --white:#FFFFFF;
+
+    --text:#1F2937;
+
+    --gray:#6B7280;
+
+    --border:#E5E7EB;
+
+    --success:#22C55E;
+
+    --danger:#EF4444;
+
+    --warning:#F59E0B;
+
+    --radius:18px;
+
+    --shadow:0 15px 35px rgba(36,88,211,.10);
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--background);
+
+    color:var(--text);
+
+}
+
+.btn-primary-custom{
+    background:var(--primary);
+    border:none;
+    color:white;
+    border-radius:14px;
+    padding:14px 28px;
+    font-weight:600;
+    transition:.3s ease;
+}
+
+.btn-primary-custom:hover{
+    background:var(--primary-dark);
+    transform:translateY(-2px);
+}
+
+.btn-outline-custom{
+    background:white;
+    border:2px solid var(--primary);
+    color:var(--primary);
+    border-radius:14px;
+    padding:14px 28px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-outline-custom:hover{
+    background:var(--primary-light);
+}
+
+.card-custom{
+
+    background:white;
+
+    border:none;
+
+    border-radius:18px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.form-control{
+
+    border-radius:12px;
+
+    padding:14px;
+
+}
