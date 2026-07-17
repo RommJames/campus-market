@@ -20,7 +20,7 @@ require_once __DIR__ . '/functions.php';
 </head>
 <body>
 <header>
-  <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+  <nav class="navbar navbar-expand-xl bg-white shadow-sm py-3">
     <div class="container">
       <a class="navbar-brand fw-bold fs-3" href="/campus-market/admin/dashboard.php">
         <span class="text-primary">Campus</span>Market

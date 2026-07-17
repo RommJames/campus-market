@@ -20,7 +20,7 @@ require_once __DIR__ . '/functions.php';
 </head>
 <body>
 <header>
-  <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+  <nav class="navbar navbar-expand-xl bg-white shadow-sm py-3">
     <div class="container">
       <a class="navbar-brand fw-bold fs-3" href="/campus-market/student/dashboard.php">
         <span class="text-primary">Campus</span>Market
@@ -49,8 +49,14 @@ require_once __DIR__ . '/functions.php';
             <a class="nav-link" href="/campus-market/student/browse_services.php">Creative Services </a>
           </li>
 
-          <li class="nav-item mx-2">
-            <a class="nav-link"href="/campus-market/student/my_products.php">My Listings </a>
+          <li class="nav-item dropdown mx-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                My Listings
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/campus-market/student/my_products.php"><i class="bi bi-bag me-2"></i>My Products</a></li>
+                <li><a class="dropdown-item" href="/campus-market/student/my_services.php"><i class="bi bi-stars me-2"></i>My Services</a></li>
+            </ul>
           </li>
 
           <li class="nav-item mx-2">
