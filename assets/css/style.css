@@ -2,95 +2,73 @@
    CAMPUSMARKET DESIGN SYSTEM
    =========================== */
 
-:root{
-
-    --primary:#2458D3;
-    --primary-dark:#173A99;
-    --primary-light:#EAF2FF;
-
-    --background:#F5F7FB;
-
-    --white:#FFFFFF;
-
-    --text:#1F2937;
-
-    --gray:#6B7280;
-
-    --border:#E5E7EB;
-
-    --success:#22C55E;
-
-    --danger:#EF4444;
-
-    --warning:#F59E0B;
-
-    --radius:18px;
-
-    --shadow:0 15px 35px rgba(36,88,211,.10);
-
+:root {
+  --primary: #2458d3;
+  --primary-dark: #173a99;
+  --primary-light: #eaf2ff;
+  --background: #f5f7fb;
+  --white: #ffffff;
+  --text: #1f2937;
+  --gray: #6b7280;
+  --border: #e5e7eb;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --radius: 18px;
+  --shadow: 0 15px 35px rgba(36, 88, 211, 0.1);
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
+body {
+  font-family: "Poppins", sans-serif;
 
-    font-family:'Poppins',sans-serif;
+  background: var(--background);
 
-    background:var(--background);
-
-    color:var(--text);
-
+  color: var(--text);
 }
 
-.btn-primary-custom{
-    background:var(--primary);
-    border:none;
-    color:white;
-    border-radius:14px;
-    padding:14px 28px;
-    font-weight:600;
-    transition:.3s ease;
+.btn-primary-custom {
+  background: var(--primary);
+  border: none;
+  color: white;
+  border-radius: 14px;
+  padding: 14px 28px;
+  font-weight: 600;
+  transition: 0.3s ease;
 }
 
-.btn-primary-custom:hover{
-    background:var(--primary-dark);
-    transform:translateY(-2px);
+.btn-primary-custom:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
 }
 
-.btn-outline-custom{
-    background:white;
-    border:2px solid var(--primary);
-    color:var(--primary);
-    border-radius:14px;
-    padding:14px 28px;
-    font-weight:600;
-    transition:.3s;
+.btn-outline-custom {
+  background: white;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  border-radius: 14px;
+  padding: 14px 28px;
+  font-weight: 600;
+  transition: 0.3s;
 }
 
-.btn-outline-custom:hover{
-    background:var(--primary-light);
+.btn-outline-custom:hover {
+  background: var(--primary-light);
 }
 
-.card-custom{
-
-    background:white;
-
-    border:none;
-
-    border-radius:18px;
-
-    box-shadow:var(--shadow);
-
+.card-custom {
+  background: white;
+  border: none;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
 }
 
-.form-control{
-
-    border-radius:12px;
-
-    padding:14px;
-
+.form-control {
+  border-radius: 12px;
+  padding: 14px;
 }

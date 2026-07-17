@@ -1,0 +1,302 @@
+/* ===========================
+   LISTINGS: tables, badges, search/filter, empty states
+   =========================== */
+
+.filter-bar {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px 24px;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-bar .form-control,
+.filter-bar .form-select {
+  border-radius: 12px;
+  padding: 12px 16px;
+}
+
+.filter-bar input[type="text"] {
+  flex: 1;
+  min-width: 220px;
+}
+
+/* Table wrapped in a card */
+.table-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.table-card table {
+  margin-bottom: 0;
+}
+
+.table-card thead {
+  background: var(--background);
+}
+
+.table-card thead th {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--gray);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
+  padding: 16px;
+}
+
+.table-card tbody td {
+  padding: 16px;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--border);
+}
+
+.table-card tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table-card tbody tr:hover {
+  background: var(--background);
+}
+
+.table-thumb {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Status badges */
+.badge-status {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.badge-status.available {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.badge-status.sold {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.badge-status.rented {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.badge-status.pending {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.badge-status.completed {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.badge-status.cancelled {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.badge-type {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+/* Row action links */
+.row-actions a {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 14px;
+}
+
+.row-actions a.action-edit {
+  color: var(--primary);
+}
+
+.row-actions a.action-delete {
+  color: var(--danger);
+}
+
+.row-actions a:hover {
+  text-decoration: underline;
+}
+
+/* Empty state */
+.empty-state {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  text-align: center;
+  padding: 70px 30px;
+  color: var(--gray);
+}
+
+.empty-state .empty-icon {
+  font-size: 42px;
+  color: var(--primary);
+  margin-bottom: 16px;
+  display: block;
+}
+
+.empty-state h3 {
+  color: var(--text);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.empty-state a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.empty-state a:hover {
+  text-decoration: underline;
+}
+
+/* Service cards (no product photo, so icon-led card instead) */
+.service-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+}
+
+.service-card .service-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--primary-light);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.service-card h5 {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.service-card .service-provider {
+  color: var(--gray);
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.service-card .service-desc {
+  color: var(--text);
+  font-size: 14px;
+  margin-bottom: 16px;
+  min-height: 42px;
+}
+
+.service-card .price {
+  font-size: 18px;
+}
+
+/* Detail page (product_details.php) */
+.detail-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.detail-card img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.detail-card .detail-body {
+  padding: 36px;
+}
+
+.detail-card .detail-price {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.detail-card .seller-box {
+  background: var(--background);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin-top: 20px;
+}
+
+/* ===========================
+   RESPONSIVE: filter bar, detail card, empty states
+   =========================== */
+@media (max-width: 767px) {
+  .filter-bar {
+    padding: 16px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-bar input[type="text"] {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .filter-bar select,
+  .filter-bar .btn-primary-custom,
+  .filter-bar .btn-outline-custom {
+    width: 100%;
+  }
+
+  .detail-card img {
+    height: 220px;
+  }
+
+  .detail-card .detail-body {
+    padding: 22px;
+  }
+
+  .detail-card .detail-price {
+    font-size: 24px;
+  }
+
+  .empty-state {
+    padding: 40px 20px;
+  }
+
+  .table-card thead th,
+  .table-card tbody td {
+    padding: 12px;
+    font-size: 14px;
+  }
+}

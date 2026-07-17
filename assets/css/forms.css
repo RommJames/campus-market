@@ -1,0 +1,127 @@
+/* ===========================
+   FORMS (add/edit product, add service, profile)
+   =========================== */
+
+.page-header {
+  padding: 40px 0 30px;
+}
+
+.page-header h1 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.page-header p {
+  color: var(--gray);
+  font-size: 16px;
+  margin: 0;
+}
+
+.form-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 40px;
+  max-width: 720px;
+  margin: 0 auto 60px;
+}
+
+.form-card h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.form-card .form-subtitle {
+  color: var(--gray);
+  margin-bottom: 28px;
+}
+
+.form-card label {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text);
+  margin-bottom: 6px;
+  display: block;
+}
+
+.form-card .form-text-hint {
+  color: var(--gray);
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.form-section-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 28px 0;
+}
+
+/* Toggle-able rental fields box */
+.rental-fields-box {
+  background: var(--primary-light);
+  border: 1px solid #d6e4ff;
+  border-radius: 14px;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+/* Current/preview image thumbnail on edit forms */
+.current-image-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+/* Custom styled checkbox row (e.g. "This item is for rent") */
+.form-check-custom {
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-check-custom input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primary);
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.form-actions .btn-outline-custom {
+  flex: 0 0 auto;
+}
+
+.form-actions .btn-primary-custom {
+  flex: 1;
+}
+
+/* ===========================
+   RESPONSIVE: form cards
+   =========================== */
+@media (max-width: 767px) {
+  .form-card {
+    padding: 24px 18px;
+    border-radius: 14px;
+  }
+
+  .page-header h1 {
+    font-size: 24px;
+  }
+
+  .form-actions {
+    flex-direction: column;
+  }
+}
