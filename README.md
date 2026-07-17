@@ -1,7 +1,8 @@
 # CampusMarket
 
 🔗 **Live View:** https://campus-market.nfy.fyi/campus-market
-📦 **GitHub Repository:** [https://github.com/your-username/campus-market](https://github.com/your-username/campus-market)
+
+📦 **GitHub Repository:** [https://github.com/RommJames/campus-market](https://github.com/RommJames/campus-market)
 
 A web-based marketplace built exclusively for students within a school or university. CampusMarket lets students buy, sell, rent, and exchange academic materials, entertainment & media equipment, and creative services — all in one centralized, searchable platform instead of scattered social media posts and bulletin boards.
 
