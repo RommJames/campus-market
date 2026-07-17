@@ -52,10 +52,6 @@ campus-market/
 └── index.php             # Landing page
 ```
 
-## Deployment
-
-This project can also be hosted online for free (e.g. on InfinityFree). See `DEPLOYMENT.md` for step-by-step instructions, including how to update `config/database.php` with your live database credentials.
-
 ## Notes
 
 CampusMarket is a discovery and coordination platform — students place a listing or find one they want, and coordinate the actual exchange (payment, meetup, delivery) directly with each other. No in-app payment processing is included in this version.
