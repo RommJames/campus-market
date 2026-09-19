@@ -1,10 +1,19 @@
 # CampusMarket
 
-🔗 **Live View:** https://campus-market.nfy.fyi/campus-market
-
 📦 **GitHub Repository:** [https://github.com/RommJames/campus-market](https://github.com/RommJames/campus-market)
 
 A web-based marketplace built exclusively for students within a school or university. CampusMarket lets students buy, sell, rent, and exchange academic materials, entertainment & media equipment, and creative services — all in one centralized, searchable platform instead of scattered social media posts and bulletin boards.
+
+<img width="512" height="286" alt="admin reports" src="https://github.com/user-attachments/assets/986587a2-6c6e-44c1-90f2-efbf968bd04c" />
+<img width="512" height="284" alt="admin manage user and products" src="https://github.com/user-attachments/assets/a24f4e1e-6145-406a-b793-50f821594d32" />
+<img width="512" height="288" alt="admin dashboard" src="https://github.com/user-attachments/assets/b709b2f3-b509-4dd2-864f-f36a5ea6ef13" />
+<img width="512" height="285" alt="student dashboard" src="https://github.com/user-attachments/assets/ed13925a-d993-472f-8fbe-187bb635ee43" />
+<img width="512" height="284" alt="login_registration_page" src="https://github.com/user-attachments/assets/39ee7541-61eb-4421-8f8b-c035c237edf3" />
+<img width="512" height="286" alt="creative and services directory" src="https://github.com/user-attachments/assets/139e8ceb-9390-4d51-895f-92abf6d130d8" />
+<img width="512" height="287" alt="browse and search bar" src="https://github.com/user-attachments/assets/9cf9ce90-501d-4154-b958-747544d128c4" />
+<img width="512" height="284" alt="product listing age" src="https://github.com/user-attachments/assets/59d65641-9492-4749-95c0-41d026ba4d16" />
+<img width="512" height="284" alt="product details page" src="https://github.com/user-attachments/assets/a2cbf2dc-8826-4bff-a834-642e827a317c" />
+<img width="512" height="285" alt="Favourite Page" src="https://github.com/user-attachments/assets/63260cd3-087b-4a36-845c-ecc6db3120c6" />
 
 ## Features
 
